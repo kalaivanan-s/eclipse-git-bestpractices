@@ -24,7 +24,7 @@ public class ValueMapper {
         ProductResponseDTO productResponseDTO = new ProductResponseDTO();//git
         productResponseDTO.setId(product.getId());
         productResponseDTO.setName(product.getName());
-        productResponseDTO.setDesc(product.getDescription());
+        productResponseDTO.setDesc(product.getDescription());//git
         productResponseDTO.setProductType(product.getProductType());
         productResponseDTO.setQuantity(product.getQuantity());
         productResponseDTO.setPrice(product.getPrice());
