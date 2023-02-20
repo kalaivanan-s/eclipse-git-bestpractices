@@ -12,9 +12,10 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = "com.*")
 public class ProductServiceApplication {
 	
-	Logger loggger= LoggerFactory.getLogger(SpringApplication.class);
+	static Logger logger= LoggerFactory.getLogger(SpringApplication.class);
 
 	public static void main(String[] args) {
+		logger.info("changes made in devoler eclipse");
 		SpringApplication.run(ProductServiceApplication.class, args);
 	}
 
